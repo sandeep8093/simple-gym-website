@@ -1,0 +1,91 @@
+body {
+  font-family: 'Baloo Bhaina', cursive;
+  color: white;
+  margin: 0px;
+  padding: 0;
+  background: url('img/naked-1847866_1280.jpg');
+}
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+}
+.left img {
+  width: 120px;
+  filter: invert(100%);
+}
+.left div {
+  text-align: center;
+  font-size: 25px;
+}
+.mid {
+  display: block;
+  width: 36%;
+  margin: 40px auto;
+  border: 2px solid rgb(150, 146, 146);
+  border-radius: 6px;
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 20px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  color: rgb(148, 142, 142);
+  text-decoration: underline;
+}
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 50px;
+  top: 40px;
+}
+.btn {
+  font-family: 'Baloo Bhaina', cursive;
+  margin: 0px 12px;
+  color: white;
+  background-color: black;
+  padding: 4px 14px;
+  border: 2px solid grey;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: grey;
+  text-decoration: underline;
+}
+.container {
+  margin: 110px 100px;
+  padding: 50px;
+  width: 35%;
+  border-radius: 10px;
+  border: 2px solid gray;
+  text-align: center;
+}
+.form-group input {
+  text-align: center;
+  font-family: 'Baloo Bhaina', cursive;
+  display: block;
+  width: 500px;
+  border: 2px solid black;
+  margin: 12px auto;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 2px;
+}
+.container button {
+  display: block;
+  width: 60%;
+  margin: 30px auto;
+  padding: 2px;
+}
